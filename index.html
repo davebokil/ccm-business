@@ -6,6 +6,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-34140831-17"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-34140831-17');
+    </script>
 </head>
 
 <body class="landing">
@@ -13,8 +22,8 @@
         <!-- Header -->
         <header id="header">
             <h1 id=""><a href="index.html"><img src="images/logo.png" alt="Rutgers University Logo" class="logo"></a></h1>
-            <nav><h2 id="statewide">Statewide Partnerships</h2></nav>
-            
+            <nav>
+                <h2 id="statewide">Statewide Partnerships</h2></nav>
         </header>
         <!-- Banner -->
         <section id="banner">
@@ -33,14 +42,14 @@
             <div class="content">
                 <div class="container">
                     <div class="row">
-                        <div class="6u 12u$(medium)">
-                            <header >
-                            	<img src="images/logo.png" alt="Rutgers University Logo" style="max-height: 50px; margin-top: 5px;">
+                        <div class="12u 12u$(medium)" style="text-align: center;">
+                            <header>
+                                <img src="images/logo.png" alt="Rutgers University Logo" style="max-height: 50px; margin-top: 5px;">
                                 <h2 style="margin-top: -0.3em;">is<br><span style="color: #F7CF8D;">STATEWIDE</span></h2>
                                 <!-- <p>Nascetur eu nibh vestibulum amet gravida nascetur praesent</p> -->
                             </header>
-                        </div>
-                        <div class="6u 12u$(medium)">
+                            <!-- </div> -->
+                            <!-- <div class="6u 12u$(medium)"> -->
                             <p>If you have an associate degree, you can transfer credits and earn a Rutgers University bachelor's degree at our County College of Morris Higher Education Center.</p>
                             <p>Daytime, evening, in-person, hybrid, and online classes available.</p>
                         </div>
@@ -56,7 +65,7 @@
                 <header style="text-align: center;">
                     <h2 style="color: #F7CF8D;">Available Majors</h2>
                 </header>
-<!--                 <ul class="alt">
+                <!--                 <ul class="alt">
                     <li>Criminal Justice (Bachelor of Science)</li>
                     <li>Leadership and Management (Bachelor of Science) - NEW!</li>
                     <li>Marketing (Bachelor of Science) - NEW!</li>
@@ -89,43 +98,39 @@
                 <header>
                     <h2>Get More Information</h2>
                 </header>
-								<form method="post" action="#">
-									<div class="row uniform 50%">
-
-										<div class="6u 12u$(xsmall)">
-											<input type="text" name="firstname" id="firstname" value="" placeholder="First Name" required/>
-										</div>
-
-										<div class="6u 12u$(xsmall)">
-                      <input type="text" name="lastname" id="lastname" value="" placeholder="Last Name" required/>
-										</div>
-
-										<div class="6u 12u$(xsmall)">
-											<input type="text" name="phone" id="phone" value="" placeholder="Phone" required/>
-										</div>
-
-										<div class="6u 12u$(xsmall)">
-                      <input type="text" name="email" id="email" value="" placeholder="Email" required/>
-										</div>
-
-
-										<div class="12u$">
-											<textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
-										</div>
-
-										<div class="12u$">
-											<ul class="actions">
-												<li><input type="submit" value="Send Message" class="special" /></li>
-												<li><input type="reset" value="Reset" /></li>
-											</ul>
-										</div>
-									</div>
-								</form>
+                <form method="post" action="#">
+                    <div class="row uniform 50%">
+                        <div class="6u 12u$(xsmall)">
+                            <input type="text" name="firstname" id="firstname" value="" placeholder="First Name" required/>
+                        </div>
+                        <div class="6u 12u$(xsmall)">
+                            <input type="text" name="lastname" id="lastname" value="" placeholder="Last Name" required/>
+                        </div>
+                        <div class="6u 12u$(xsmall)">
+                            <input type="text" name="phone" id="phone" value="" placeholder="Phone" required/>
+                        </div>
+                        <div class="6u 12u$(xsmall)">
+                            <input type="text" name="email" id="email" value="" placeholder="Email" required/>
+                        </div>
+                        <div class="12u$">
+                            <textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
+                        </div>
+                        <div class="12u$">
+                            <ul class="actions">
+                                <li>
+                                    <input type="submit" value="Submit" class="special" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
             </div>
         </section>
         <!-- Footer -->
         <footer id="footer">
-            <p>DeMare Hall Room 269<br>214 Center Grove Road<br>Randolph, NJ 07869</p>
+            <p>DeMare Hall Room 269
+                <br>214 Center Grove Road
+                <br>Randolph, NJ 07869</p>
             <p>Website developed by Rutgers, Information Technology at Continuing Studies</p>
             <p>Copyright &copy; 2018 Rutgers, The State University of New Jersey, an equal opportunity, affirmative action institution.</p>
         </footer>
@@ -139,6 +144,7 @@
     <script src="assets/js/util.js"></script>
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>

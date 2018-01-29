@@ -3355,10 +3355,14 @@
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, #cc0033, rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			/*background-image: -moz-linear-gradient(top, #cc0033, rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: -webkit-linear-gradient(top, #cc0033, rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: -ms-linear-gradient(top, #cc0033, rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, #cc0033, rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: linear-gradient(top, #cc0033, rgba(23, 24, 32, 0.95)), url("images/overlay.png");;*/
+			background-image: -moz-linear-gradient(top, #cc0033, rgba(0, 0, 0, 0.95)), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, #cc0033, rgba(0, 0, 0, 0.95)), url("images/overlay.png");;
+			background-image: -ms-linear-gradient(top, #cc0033, rgba(0, 0, 0, 0.95)), url("images/overlay.png");;
+			background-image: linear-gradient(top, #cc0033, rgba(0, 0, 0, 0.95)), url("images/overlay.png");;
 			content: '';
 			display: block;
 			height: 100%;
