@@ -3985,6 +3985,10 @@
 
 	/*Added*/
 
+	.logo {
+		max-height: 77px;
+	}
+
 	#statewide {
 		margin-top: 0.5em;
 	}
