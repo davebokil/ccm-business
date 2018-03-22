@@ -3507,6 +3507,10 @@
 				width: 35em;
 			}
 
+			.logo {
+		max-height: 100px;
+	}
+
 		/* Wrapper */
 
 			.wrapper {
@@ -3644,6 +3648,11 @@
 				font-size: 1em;
 			}
 
+			/*Logo*/
+			.logo {
+				max-height: 77px;
+			}
+
 		/* Section/Article */
 
 			header p br {
@@ -3728,6 +3737,7 @@
 
 					#banner .content header h2 {
 						font-size: 1.5em;
+						margin-top: 3em;
 					}
 
 					#banner .content .image {
@@ -3970,9 +3980,6 @@
 	}
 
 	/*Added*/
-	.logo {
-		max-height: 100px;
-	}
 
 	#statewide {
 		margin-top: 0.5em;
