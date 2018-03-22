@@ -3480,6 +3480,10 @@
 				font-size: 13pt;
 			}
 
+			.logo {
+		max-height: 100px;
+	}
+
 	}
 
 /* Large */
